@@ -2,3 +2,35 @@
     margin:0;
     padding: 0;
 }
+h1{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+}
+.botao{
+    font-size: 25px;
+    text-align: center;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+    width: 70%;
+    
+}
+#darkmode{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+
+}
